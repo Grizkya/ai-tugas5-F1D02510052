@@ -1,0 +1,74 @@
+{
+  "judul": "Diagnosis Awal Penyakit Umum pada Kucing",
+  "batas": "Aturan berasal dari 3 artikel; sistem hanya memberi dugaan awal, bukan pengganti dokter hewan",
+  "pertanyaan": [
+    "rontok bulu berbentuk bulat",
+    "kulit bersisik",
+    "kulit kemerahan di area rontok",
+    "kucing sering digaruk hingga luka",
+    "bersin-bersin",
+    "keluar cairan dari mata",
+    "hidung berlendir",
+    "nafsu makan menurun",
+    "sesak napas",
+    "perut buncit",
+    "bulu kusam",
+    "berat badan turun meski makan banyak"
+  ],
+  "aturan": [
+    {
+      "id": "R1",
+      "mode": "dan",
+      "jika": [
+        "rontok bulu berbentuk bulat",
+        "kulit bersisik",
+        "kulit kemerahan di area rontok"
+      ],
+      "maka": "jamur kulit (ringworm)",
+      "sumber": "Ringworm in Cats — VCA Animal Hospitals"
+    },
+    {
+      "id": "R2",
+      "mode": "dan",
+      "jika": [
+        "jamur kulit (ringworm)",
+        "kucing sering digaruk hingga luka"
+      ],
+      "maka": "risiko infeksi kulit sekunder",
+      "sumber": "Ringworm in Cats — VCA Animal Hospitals"
+    },
+    {
+      "id": "R3",
+      "mode": "dan",
+      "jika": [
+        "bersin-bersin",
+        "keluar cairan dari mata",
+        "hidung berlendir",
+        "nafsu makan menurun"
+      ],
+      "maka": "flu kucing",
+      "sumber": "Feline Upper Respiratory Infection — VCA Animal Hospitals"
+    },
+    {
+      "id": "R4",
+      "mode": "dan",
+      "jika": [
+        "perut buncit",
+        "bulu kusam",
+        "berat badan turun meski makan banyak"
+      ],
+      "maka": "cacingan",
+      "sumber": "Gastrointestinal Parasites of Cats — Cornell Feline Health Center"
+    },
+    {
+      "id": "R5",
+      "mode": "atau",
+      "jika": [
+        "sesak napas",
+        "feses berdarah"
+      ],
+      "maka": "perlu pemeriksaan dokter hewan segera",
+      "sumber": "Feline Upper Respiratory Infection — VCA Animal Hospitals; Gastrointestinal Parasites of Cats — Cornell Feline Health Center"
+    }
+  ]
+}
