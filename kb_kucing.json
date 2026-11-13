@@ -1,6 +1,6 @@
 {
-  "judul": "Diagnosis Awal Penyakit Umum pada Kucing",
-  "batas": "Aturan berasal dari 3 artikel; sistem hanya memberi dugaan awal, bukan pengganti dokter hewan",
+  "judul": "DIAGNOSIS AWAL PENYAKIT UMUM PADA KUCING",
+  "batas": "Sistem hanya memberi dugaan awal, bukan pengganti dokter hewan",
   "pertanyaan": [
     "rontok bulu berbentuk bulat",
     "kulit bersisik",
@@ -32,7 +32,7 @@
       "mode": "dan",
       "jika": [
         "jamur kulit (ringworm)",
-        "kucing sering digaruk hingga luka"
+        "kucing sering menggaruk hingga luka"
       ],
       "maka": "risiko infeksi kulit sekunder",
       "sumber": "Ringworm in Cats — VCA Animal Hospitals"
