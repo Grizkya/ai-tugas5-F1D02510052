@@ -1,5 +1,7 @@
-Nama    : Ghaitsa Rizky Amalia
-NIM     : F1D02510052
+| | |
+|---|---|
+| Nama | Ghaitsa Rizky Amalia |
+| NIM | F1D02510052 |
 
 # Sistem Pakar Diagnosis Awal Penyakit Umum Pada Kucing
 
@@ -49,19 +51,19 @@ Metode yang digunakan pada program ini adalah **Forward Chaining (FC)** untuk me
 ## E. Kasus Uji
 
 1. Kasus menghasilkan kesimpulan
-<img width="1292" height="578" alt="kasus_rantai_aturan" src="https://github.com/user-attachments/assets/7959d440-a93c-4be7-9bbe-0fd40afd407f" />
+<img width="800" alt="kasus_rantai_aturan" src="https://github.com/user-attachments/assets/7959d440-a93c-4be7-9bbe-0fd40afd407f" />
 
 2. Kasus menghasilkan kesimpulan
-<img width="1150" height="592" alt="kasus_mode_atau" src="https://github.com/user-attachments/assets/25f0b558-aedc-4c2c-b5fc-f0ace706aa01" />
+<img width="800" alt="kasus_mode_atau" src="https://github.com/user-attachments/assets/25f0b558-aedc-4c2c-b5fc-f0ace706aa01" />
 
 3. Kasus menghasilkan kesimpulan
-<img width="1140" height="762" alt="semua_fakta_dipilih" src="https://github.com/user-attachments/assets/3274e26b-0aaa-48e4-84bd-7da8d3a5a8bb" />
+<img width="800" alt="semua_fakta_dipilih" src="https://github.com/user-attachments/assets/3274e26b-0aaa-48e4-84bd-7da8d3a5a8bb" />
 
 4. Kasus tidak ada aturan terpenuhi
-<img width="1158" height="550" alt="tidak_ada_aturan_terpenuhi" src="https://github.com/user-attachments/assets/cbca1081-c1aa-4f44-9a1a-f155ab59b364" />
+<img width="800" alt="tidak_ada_aturan_terpenuhi" src="https://github.com/user-attachments/assets/cbca1081-c1aa-4f44-9a1a-f155ab59b364" />
 
 5. Kasus tidak ada fakta yang dipilih
-<img width="736" height="396" alt="tidak_ada_fakta_dipilih" src="https://github.com/user-attachments/assets/b61d2228-b3a9-4b82-a1f1-4c587811de4c" />
+<img width="800" alt="tidak_ada_fakta_dipilih" src="https://github.com/user-attachments/assets/b61d2228-b3a9-4b82-a1f1-4c587811de4c" />
 
 ## F. Batas Keberlakuan
 
